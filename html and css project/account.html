@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>html and css project</title>
+</head>
+<body>
+
+    <!-- nav bar -->
+    
+    <nav class="nav-bar">
+        <h2 class="logo">SigmaBook</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+        <div class="login">
+            <a class="a-login" href="login.html"><i class="fa-regular fa-user"></i> Login /</a>
+            <a class="a-login" href="sign-up.html">Register</a>
+        </div>
+    </nav>
+
+    <!-- account -->
+
+    <div class="account-box">
+
+        <div class="account-profile">
+            <img src="/img/user.png" alt="" width="180px">
+            <h2>UserName1</h2>
+            <p>User1@email.com</p>
+            <button class="account-btn" onclick="toPay()">Payment methods</button>
+            <button class="account-btn" onclick="toChange()">Change Password</button>
+        </div>
+        <div class="account-input">
+
+            <h2>Profile Setting</h2>
+
+            <div class="f-l-name">
+                <div class="f-name">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                </div>
+                <div class="l-name">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Email">
+                </div>
+            </div>
+
+            <div class="user-name">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Username">
+            </div>
+
+            <div class="f-l-name">
+                <div class="f-name">
+                    <label for="fname">Phone Number:</label>
+                    <input type="text" id="fname" name="fname" placeholder="885 12 123 123">
+                </div>
+                <div class="l-name">
+                    <label for="lname">Email:</label>
+                    <input type="text" id="lname" name="lname" placeholder="User@email.com">
+                </div>
+            </div>
+
+            <div class="user-name">
+                <label for="username">Register Date:</label>
+                <input type="text" id="username" name="username" placeholder="26/12/2023">
+            </div>
+            <div class="user-name">
+                <label for="username">Address 1</label>
+                <input type="text" id="username" name="username" placeholder="Street 101">
+            </div>
+            <div class="user-name">
+                <label for="username">Address 2</label>
+                <input type="text" id="username" name="username" placeholder="Street 202">
+            </div>
+
+            <div class="drop-box">
+                <div class="country">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="volvo">Cambodia</option>
+                        <option value="saab">Thai</option>
+                        <option value="opel">Chinese</option>
+                    </select>
+                </div>
+                <div class="city">
+                    <label for="city">City</label>
+                    <select name="city" id="city">
+                        <option value="volvo">Phnom Phen</option>
+                        <option value="saab">City 1</option>
+                        <option value="opel">City 2</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="f-l-name">
+                <div class="f-name">
+                    <label for="pcode">Poscal Code</label>
+                    <input type="text" id="pcode" name="pcode" placeholder="12345">
+                </div>
+                <div class="l-name">
+                    <label for="gender">Gender</label>
+                    <input type="text" id="gender" name="gender" placeholder="Male">
+                </div>
+            </div>
+
+            <div class="account-textbox">
+                <label for="des">Description</label>
+                <textarea id="des" name="des" rows="10" cols="" placeholder="Your account description"></textarea>
+                <button class="submit-account">Submit</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container-footer">
+            <div class="footer-icon">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bot">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Pee Pee Poo Poo</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

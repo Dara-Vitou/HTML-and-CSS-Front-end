@@ -1,0 +1,1065 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Oswald:wght@500&family=Poiret+One&family=Poppins:wght@500&family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav bar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 70px;
+    background-color: #36454F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    padding: 24px 24px;
+    border-radius: 18px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #f9f9f9;
+    display: block;
+}
+
+.nav-bar ul li:hover {
+    background-color: #222;
+}
+ 
+.login {
+    margin: 22px 42px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.login a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar .logo {
+    margin: 18px 42px;
+    color: #f9f9f9;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    background-image: url("/img/Banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+.banner h2 {
+    font-size: 5rem;
+    color: #e7e7e7;
+}
+
+.banner button {
+    padding: 18px 120px;
+    margin-left: 200px;
+    margin-top: 22px;
+    border: 3px solid #222;
+    border-radius: 38px;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #36454F;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #f9f9f9;
+    color: #222;
+    transition: 0.3s;
+}
+
+/* icon */
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0px;
+}
+
+.icon img {
+    margin: 24px 120px;
+}
+
+.icon h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* feature item */
+
+.feature-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 90px;
+    row-gap: 60px;
+}
+
+.feature-item a h5 p{
+    text-align: none;
+}
+
+.feature-item .card {
+    text-align: center;
+    padding: 10px 0px;
+    border: 2px solid #222;
+    cursor: pointer;
+}
+
+.card h5 {
+    font-size: 24px;
+}
+
+.feature-item .card:hover {
+    box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.63);
+    transition: 0.5s ease-in-out;
+}
+
+.feature-item .card button {
+    background-color: #28282B;
+    color: #f9f9f9;
+    padding: 9px 52px;
+    border: 2px solid #222;
+    border-radius: 18px;
+    margin: 12px 0px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* interested section */
+
+.about-card {
+    width: 460px;
+}
+
+.about-card h5 {
+    font-size: 20px;
+}
+
+.about-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 45px;
+    background-color: #111;
+}
+
+.container-footer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    margin: 0px 14px;
+    padding: 16px;
+}
+
+.footer-icon a i {
+    font-size: 4rem;
+    color: #e7e7e7;
+    opacity: 0.9;
+}
+
+.footer-icon a i:hover {
+    color: #fff;
+}
+
+.footer-nav {
+    margin: 30px 0px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a {
+    color: #f9f9f9;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav ul li {
+    list-style: none;
+}
+
+.footer-bot {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bot p {
+    color: #f9f9f9;
+}
+
+.disigner {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/* Shop page */
+
+.box-search {
+    text-align: center;
+}
+
+.box-search h2 {
+    font-size: 2rem;
+    margin: 12px 0px;
+}
+
+.search-bar {
+    width: 450px;
+    height: 42px;
+    padding: 0px 12px;
+    font-size: 1.3rem;
+    border: 3px solid #28282B;
+    border-radius: 19px;
+}
+
+
+/* contact us */
+
+.box-contact {
+    display: flex;
+    width: 80%;
+    height: 75vh;
+    margin: 45px auto;
+    border: 5px solid #28282B;
+    border-radius: 28px;
+}
+
+.input-contact {
+    width: 55%;
+    padding: 35px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input {
+    height: 42px;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+}
+
+.input-box label {
+    font-size: 18px;
+    margin: 7px 0px;
+}
+
+.input-box textarea {
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.submit-contact {
+    height: 42px;
+    width: 220px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+
+.submit-contact:hover {
+    background-color: #f9f9f9;
+    color: #28282B;
+    transition: 0.5s ease-in-out;
+}
+
+.info-contact {
+    padding: 45px;
+    border-left: 5px solid #28282B;
+}
+
+.info-contact h2 {
+    font-size: 2rem;
+}
+
+.info-contact p {
+    font-size: 2.5rem;
+    margin: 28px 0px;
+    text-decoration: underline;
+}
+
+/* about us */
+
+.about-head h2 {
+    font-size: 2.5rem;
+    color: #222;
+    text-align: center;
+}
+
+.about-head p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 45px auto;
+    padding: 15px;
+    border: 3px solid #28282B;
+    border-radius: 26px;
+}
+
+.about-us-text {
+    padding: 25px;
+}
+
+.about-us-text h2 {
+    font-size: 2rem;
+}
+
+.about-us-text p {
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.about-us-btn {
+    padding: 11px 64px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about-us-btn:hover {
+    color: #28282B;
+    background-color: #f9f9f9;
+    transition: .5s ease-in-out;
+}
+
+/* blog */
+
+.blog-head {
+    text-align: center;
+    margin: 45px 0px 45px 0px;
+}
+
+.blog-box {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.blog-card {
+    width: 540px;
+    padding: 20px;
+    box-shadow: 1px 1px 11px 4px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 1px 1px 11px 4px rgba(0,0,0,0.59);
+    -moz-box-shadow: 1px 1px 11px 4px rgba(0,0,0,0.59);
+}
+
+.blog-card p {
+    margin: 12px 0px;
+}
+
+.blog-card h3 {
+    font-size: 24px;
+}
+
+.blog-card .btn-blog {
+    padding: 10px 45px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blog-card .btn-blog:hover {
+    background-color: #f9f9f9;
+    color: #28282B;
+    transition: 0.5s ease-in-out;
+}
+
+/* account */
+
+.account-box {
+    display: flex;
+    width: 85%;
+    height: 100vh;
+    margin: 40px auto 80px;
+    justify-content: center;
+}
+
+.account-box label {
+    margin-top: 8px;
+}
+
+.account-profile {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    align-items: center;
+    gap: 12px;
+}
+
+.account-box .account-btn {
+    width: 240px;
+    padding: 9px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.account-box .account-btn:hover {
+    color: #28282B;
+    background-color: #f9f9f9;
+    transition: 0.5s ease-in-out;
+}
+
+.account-input {
+    padding: 45px;
+}
+
+.account-input h2 {
+    font-size: 2rem;
+}
+
+.f-l-name {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.f-name {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.l-name {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-name input {
+    width: 100%;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.l-name input {
+    width: 100%;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name input {
+    width: 100%;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-name label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email-name input {
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-box {
+    display: flex;
+    gap: 10px;
+}
+
+.drop-box label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.drop-box select {
+    width: 400px;
+    padding: 10px 0px;
+    border: 2px solid #28282B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.drop-box option {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.account-textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-textbox label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.account-textbox textarea {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.account-textbox .submit-account {
+    margin-top: 8px;
+    padding: 10px 0px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    border: 2px solid #28282B;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.account-textbox .submit-account:hover {
+    color: #28282B;
+    background-color: #f9f9f9;
+    transition: 0.5s ease-in-out;
+}
+
+/* Payment */
+
+.payment-box {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.btn-pay {
+    padding: 12px 0px;
+    margin: 12px 0px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-pay:hover {
+    color: #28282B;
+    background-color: #f9f9f9;
+    transition: 0.5s ease-in-out;
+}
+
+.pay-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-name label {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.pay-name input {
+    padding: 10px 8px;
+    border: 3px solid #28282B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.date-cvc {
+    display: flex;
+    gap: 18px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.cvc {
+    display: flex;
+    flex-direction: column;
+}
+
+.date label {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.cvc label {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.date input {
+    width: 550px;
+    padding: 10px 8px;
+    border: 3px solid #28282B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cvc input {
+    width: 550px;
+    padding: 10px 8px;
+    border: 3px solid #28282B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pay-dropbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-dropbox label {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.pay-dropbox select {
+    padding: 10px 8px;
+    border: 3px solid #28282B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pay-dropbox option {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.payment-box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.payment-box a:hover {
+    text-decoration: underline;
+    color: hsla(240, 4%, 16%, 0.7);
+}
+
+/* change password */
+
+.change-box {
+    width: 65%;
+    display: flex;
+    margin: 45px auto;
+}
+
+.change-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.change-form label {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.change-form input {
+    width: 600px;
+    padding: 10px 8px;
+    border: 3px solid #28282B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.change-btn {
+    padding: 10px 8px;
+    margin-top: 35px;
+    margin-bottom: 8px;
+    border: 3px solid #28282B;
+    border-radius: 8px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.change-btn:hover {
+    background-color: #f9f9f9;
+    color: #28282B;
+    transition: 0.5s ease-in-out;
+}
+
+.change-form a {
+    text-decoration: none;
+    color: #000;
+}
+
+.change-form a:hover {
+    text-decoration: underline;
+    color: hsla(240, 4%, 16%, 0.7);
+}
+
+/* login */
+
+.login-box {
+    border: 3px solid #28282B;
+    border-radius: 22px;
+    width: 50%;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-img {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.login-box p {
+    margin-bottom: 35px;
+}
+
+.login-box button {
+    width: 500px;
+    padding: 10px 0px;
+    margin: 12px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #28282B;
+    color: #f9f9f9;
+    transition: 0.5s ease-in-out;
+}
+
+.login-user {
+    padding: 8px 0px;
+}
+
+.login-user input {
+    width: 365px;
+    padding: 10px 12px;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-user label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-pass {
+    margin-right: 5px;
+}
+
+.login-checkbox input.check1 {
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+    float: left;
+}
+
+.login-checkbox label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-checkbox a {
+    margin-left: 175px;
+    text-decoration: none;
+    color: #000;
+}
+
+.login-checkbox a:hover {
+    text-decoration: underline;
+    color: hsla(240, 4%, 16%, 0.7);
+}
+
+.login-nav {
+    display: flex;
+}
+
+.login-nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.login-nav a:hover {
+    text-decoration: underline;
+    color: hsla(240, 4%, 16%, 0.7);
+}
+
+/* sign up */
+
+.sign-box {
+    border: 3px solid #28282B;
+    border-radius: 22px;
+    width: 65%;
+    margin: 45px auto;
+    display: flex;
+}
+
+.sign-img {
+    padding: 40px;
+}
+
+.sign-fullname {
+    display: flex;
+    width: 100%;
+    margin: 22px 0px;
+}
+
+.sign-fullname input {
+    width: 450px;
+    padding: 10px 12px;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sign-fullname label {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 5px;
+}
+
+.sign-radio {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px 0px;
+}
+
+.sign-input {
+    display: flex;
+}
+
+.sign-input input.sign-check {
+    width: 22px;
+}
+
+.sign-input label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-user .sign-btn {
+    padding: 10px 85px;
+    background-color: #28282B;
+    color: #f9f9f9;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 47px;
+    cursor: pointer;
+}
+
+.sign-user .sign-btn:hover {
+    background-color: #f9f9f9;
+    color: #28282B;
+    transition: 0.5s ease-in-out;
+}
+
+.sign-nav {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 47px;
+}
+
+.sign-nav a {
+    color: #000;
+}
+
+.sign-nav a:hover {
+    text-decoration: none;
+    color: hsla(240, 4%, 16%, 0.7);
+}
+
+/* forgot password */
+
+.forgot-box {
+    border: 3px solid #28282B;
+    border-radius: 22px;
+    width: 65%;
+    display: flex;
+    margin: 45px auto;
+}
+
+.forgot-img {
+    padding: 40px;
+}
+
+.forgot-form {
+    margin: 85px 18px;
+}
+
+.forgot-form h2 {
+    margin: 12px 0px;
+}
+
+.forgot-form p {
+    margin-bottom: 40px;
+}
+
+.forgot-btn {
+    padding: 10px 65px;
+    margin-top: 18px;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #28282B;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.forgot-btn:hover {
+    background-color: #f9f9f9;
+    color: #28282B;
+    transition: 0.5s ease-in-out;
+}
+
+.forgot-nav{
+    margin: 12px 0px 0px 15px;
+}
+
+.forgot-nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.forgot-nav a:hover {
+    text-decoration: underline;
+    color: rgba(40, 40, 43, 0.7);
+}
+
+.forgot-email {
+    padding: 8px 0px;
+}
+
+.forgot-email input {
+    width: 440px;
+    padding: 10px 12px;
+    border: 3px solid #28282B;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.forgot-email label {
+    font-size: 20px;
+    font-weight: bold;
+}
